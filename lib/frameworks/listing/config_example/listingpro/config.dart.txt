@@ -1,0 +1,13 @@
+
+const serverConfig = {
+  'type': 'listpro',
+  'url': 'https://listingpro.thekinggo.com',
+  'blog': 'https://listingpro.thekinggo.com',
+  'consumerKey': '',
+  'consumerSecret': '',
+
+  /// remove to use as native screen
+  'forgetPassword':
+      'http://listingpro.thekinggo.com/wp-login.php?action=lostpassword',
+     'addListingUrl': 'https://listingpro.thekinggo.com/add-listing'
+};

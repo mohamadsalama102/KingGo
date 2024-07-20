@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442316299900",
+    "project_id": "kinggolisting",
+    "storage_bucket": "kinggolisting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442316299900:android:8a01405efe551944f273f9",
+        "android_client_info": {
+          "package_name": "com.konRkmyKingGo.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDy5_1V6W8SuYK1NrpxtJb2dMOtMsiYmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
