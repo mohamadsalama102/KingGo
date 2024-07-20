@@ -84,8 +84,8 @@ Map<String, dynamic> environment = {
 
     /// set isCaching to true if you have upload the config file to mstore-api
     /// set kIsResizeImage to true if you have finished running Re-generate image plugin
-    /// ref: https://support.thekinggo.com/help-center/articles/3/8/19/app-performance
-    "isCaching": false,
+    /// ref: https://support.inspireui.com/help-center/articles/3/8/19/app-performance
+    "isCaching": true,
     "kIsResizeImage": false,
     "httpCache": true,
 
@@ -389,9 +389,9 @@ Map<String, dynamic> environment = {
     "IsRequiredLogin": false,
     "showAppleLogin": true,
     "showFacebook": false,
-    "showSMSLogin": true,
+    "showSMSLogin": false,
     "showGoogleLogin": true,
-    "showPhoneNumberWhenRegister": false,
+    "showPhoneNumberWhenRegister": true,
     "requirePhoneNumberWhenRegister": false,
     "isResetPasswordSupported": true,
 
@@ -408,8 +408,8 @@ Map<String, dynamic> environment = {
 
     // This config is used to apple for Wordpress site
     "appleLoginSetting": {
-      "iOSBundleId": "com.inspireui.mstore.flutter",
-      "appleAccountTeamID": "S9RPAM8224"
+      "iOSBundleId": "com.konRkmyKingGo.app",
+      "appleAccountTeamID": "Z38ADW4NHK"
     }
   },
   "oneSignalKey": {"enable": false, "appID": ""},
@@ -529,12 +529,12 @@ Map<String, dynamic> environment = {
     /// Then you have to mention the domain name as : https://example.page.link.
     "uriPrefix": "https://konrkmykinggo.page.link",
     //The link your app will open
-    "link": "https://mstore.io/",
+    "link": "https://theKingGo.com/",
     //----------* Android Setting *----------//
-    "androidPackageName": "com.inspireui.fluxstore",
+    "androidPackageName": "com.konRkmyKingGo.app",
     "androidAppMinimumVersion": 1,
     //----------* iOS Setting *----------//
-    "iOSBundleId": "com.inspireui.mstore.flutter",
+    "iOSBundleId": "com.konRkmyKingGo.app",
     "iOSAppMinimumVersion": "1.0.1",
     "iOSAppStoreId": "1469772800"
   },
@@ -1092,17 +1092,17 @@ Map<String, dynamic> environment = {
     "countryCode": "US",
     "productionMode": false,
     "paymentCardConfig": {
-      "enable": true,
+      "enable": false,
       "serverEndpoint": "https://test-stripe-nine.vercel.app",
     },
     "applePayConfig": {
-      "enable": true,
-      "merchantId": "merchant.com.inspireui.fluxstore",
+      "enable": false,
+      "merchantId": "merchant.com.konRkmyKingGo.app",
     },
     "googlePayConfig": {
-      "enable": true,
+      "enable": false,
       "stripePublishableKey": "pk_test_O3awus9i5mA2wIX9a7pU3MSi00gZPcpJWX",
-      "merchantId": "merchant.com.inspireui.fluxstore"
+      "merchantId": "merchant.com.konRkmyKingGo.app"
     },
   },
   "stripeConfig": {
@@ -1113,7 +1113,7 @@ Map<String, dynamic> environment = {
     "enableApplePay": true,
     "enableGooglePay": true,
     "merchantDisplayName": "King Go",
-    "merchantIdentifier": "merchant.com.inspireui.mstore.flutter",
+    "merchantIdentifier": "merchant.com.konRkmyKingGo.app",
     "merchantCountryCode": "US",
     "returnUrl": "fluxstore://thekinggo.com",
 
@@ -1220,7 +1220,7 @@ Map<String, dynamic> environment = {
     'paymentMethodId': 'shahbandrpay',
     'merchantKey': 'b2be2ffc-c8b9-11ed-82a9-42eb4e39c8ae',
     'merchantPassword': '4a00a5fd3c63dd2b743c75746af6ffe2',
-    "merchantId": "merchant.com.inspireui.mstore.flutter",
+    "merchantId": "merchant.com.konRkmyKingGo.app",
     "production": false,
     'enabled': true
   },
@@ -1447,15 +1447,15 @@ Map<String, dynamic> environment = {
 
   /// ➡️ lib/common/smartchat.dart
   "configChat": {
-    "EnableSmartChat": true,
-    "enableVendorChat": true,
+    "EnableSmartChat": false,
+    "enableVendorChat": false,
     "UseRealtimeChat": false,
     "showOnScreens": ["profile"],
     "hideOnScreens": [],
     "version": "2",
   },
   "openAIConfig": {
-    'enableChat': true,
+    'enableChat': false  ,
     'supabaseUrl': 'https://rtkrqvtslujdzjxhjocu.supabase.co',
     'supabaseAnonKey':
         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ0a3JxdnRzbHVqZHpqeGhqb2N1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzU5OTI5MzMsImV4cCI6MTk5MTU2ODkzM30.qKtfNHhL6AKqGsmDfjMq90bIWIWlnN3UVgnwcLF_vGY',
